@@ -11,9 +11,10 @@ The project uses **Amazon Web Services (AWS)** for deployment, including:
 - **GitHub Actions** for CI/CD automation.
 - **AWS Secrets Manager** for secure credential management.
 - **Amazon CloudWatch** for monitoring and logging.
-
+---
 ## **AWS E-commerce Chatbot Architecture**
 ![AWSECOMMERCEARCHITECTURE](https://github.com/user-attachments/assets/701ded73-1e07-4e0d-a947-135e1cf0d76b)
+
 ---
 
 ## DEMONSTRATION
