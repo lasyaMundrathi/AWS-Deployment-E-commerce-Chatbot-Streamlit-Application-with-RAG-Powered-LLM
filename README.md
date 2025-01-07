@@ -20,25 +20,25 @@ Bring your e-commerce platform to life with an **AI-powered chatbot** 🛒🤖 t
    - **AWS Secrets Manager** 🔒 secures sensitive API keys.  
    - **Amazon CloudWatch** 📊 ensures **performance and error monitoring**.  
 ---
-## DEMONSTRATION
+## DEMONSTRATION 📺  
+*watch demo👇🏻✨*
 
-
-[Watch Demo](https://github.com/user-attachments/assets/dfb33911-1032-41d2-86c2-2486b40892ba) 📺  
+https://github.com/user-attachments/assets/dfb33911-1032-41d2-86c2-2486b40892ba 
 
 ---
-## **Deployment Steps**
+## **Deployment Steps** 🚀  
 
 1. Clone the repository: ```git clone https://github.com/<your-username>/<your-repo>.git cd <your-repo>```
-2. Set up CI/CD pipeline in ```.github/workflows/aws.yml.```
+2. Set up CI/CD pipeline in ```.github/workflows/aws.yml.```⚙️
 3. Push Docker image to **Amazon ECR**: The pipeline automates this step on every commit.
 4. Deploy to **AWS Fargate:** ```aws ecs describe-services --cluster <cluster-name> --services <service-name>```
-5. Access the chatbot via the ECS-provided URL.
+5. Access the chatbot via the ECS-provided URL 🌐💬.
 ---
 
-## **AWS Setup**
+## **AWS Setup⚡🔧**
 
-- Enable key AWS services: **ECR, ECS, Fargate, Secrets Manager, CloudWatch.**
+- Enable key AWS services: **ECR 🏗️, ECS 📦, Fargate ☁️, Secrets Manager 🔒, CloudWatch 📊**
 - Create an ECR repository: ```bash aws ecr create-repository --repository-name ecommerce-repo --region <region>```
 - Authenticate Docker to ECR: ```bash aws ecr get-login-password --region <region> | docker login --username AWS --password-stdin <repository-uri>```
-- Configure ECS cluster and service.
+- Configure ECS cluster and service🚀.
 ---
